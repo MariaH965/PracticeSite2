@@ -1,0 +1,162 @@
+
+/* Boilerplate CSS Courtesy of: https://thenewcode.com/441/HTML5-CSS-Boilerplate */ 
+
+* { 
+	box-sizing: border-box;
+    padding: 2%;
+    margin: auto;
+}
+
+html, body {
+	min-height: 100%;
+	background: #fff;
+	color: #000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+	
+	
+body {
+	font-size: 1.4vw;
+	text-rendering: optimizeLegibility;
+}
+
+
+
+p {
+    color: darkblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: wavy;
+    text-align: justify;
+
+}
+
+body, ul, ol, dl {
+	margin: 0;
+}
+
+.img{
+    padding: 1%;
+}
+
+
+.figcaption{
+    border: #f00;
+    border-style: dotted;
+
+}
+
+article, aside, audio, 
+footer, header, nav, section, video {
+	display: block; 
+	}
+	
+
+h1 {
+	font-size: 1.7vw;
+    font-weight: bolder;
+    color: #f00;
+}
+
+h2 {
+    font-size: 1.5vw;
+    font-style: italic;
+    color: rgb(2, 85, 106);
+}
+
+h3{
+    font-size: 1.3vw;
+    font-weight: 500;
+    color: orange;
+}
+
+h4{
+    font-size: 1.2vw;
+    font-weight: 200;
+    color: rgb(33, 108, 41);
+}
+
+h5{
+    font-size: 2.5vw;
+    text-shadow: #f00;
+    color: rgb(55, 9, 79);
+}
+
+section{
+    margin:auto;
+    padding: 10%;
+}
+
+article{
+    margin: auto;
+    border: #f00;
+    border-style: dotted;
+    
+}
+	
+p { 
+	-ms-word-break: break-all;
+	word-break: break-all;
+	word-break: break-word;
+	-moz-hyphens: auto;
+	-webkit-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+} 
+
+	
+textarea { 
+	resize: vertical;
+}
+
+ 
+table { border-collapse: collapse; }
+
+td {
+	padding: .5rem;
+}
+
+	
+img { 
+	border: none;
+	max-width: 100%;
+}
+
+	
+input[type="submit"]::-moz-focus-inner, 
+	input[type="button"]::-moz-focus-inner {
+		border : 0px;
+	}
+
+input[type="search"] { 
+	-webkit-appearance: textfield;
+} 
+input[type="submit"] { 
+	-webkit-appearance:none;
+}
+
+	
+input:required:after {
+	color: #f00;
+	content: " *";
+}
+
+input[type="email"]:invalid { 
+	background: #f00;
+}
+
+	
+.right { 
+	float: right;
+	margin-left: 2rem;
+	clear: right;
+}
+.left { 
+	float: left;
+	margin-right: 2rem;
+	clear: left;
+}
+
+	
+sub, sup { 
+	line-height: 0;
+}
